@@ -33,6 +33,11 @@ height: 155px;
 margin: -10px 0 0 30px;
 }
 
+.cabecalho__imagem__nav {
+  width: 30px;
+  height: 30px;
+}
+
 .rodape__imagem {
   width: 500px;
   height: 501px; 
@@ -48,6 +53,7 @@ margin: -10px 0 0 30px;
 }
 
 .cabecalho__li {
+  justify-content: space-between;
   display: inline-block;
   position: relative;
   background-color: var(--quaternary-color);
