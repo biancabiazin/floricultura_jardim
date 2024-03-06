@@ -1,5 +1,5 @@
 <?php
-  $conn = mysqli_connect("localhost","root","","Jardim");
+  $conn = mysqli_connect("localhost","root","","jardim");
   if(!$conn){
     die("Conexão Falhou!".mysqli_connect_error());
   }else{

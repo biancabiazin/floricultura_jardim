@@ -11,32 +11,36 @@
 </head>
 
 <body>
-  <header>
+<header class="cabecalho">
     <a href="../Home/index.html">
-      <img src="../../public/icons/logo.png" alt="Logo Floricultura Jardim">
+      <img class="cabecalho__imagem" src="../../public/icons/logo.png" alt="Logo Floricultura Jardim">
     </a>
-    <nav>
-      <ul>
-        <li><a href="../Plantas/index.php">PLANTAS</a></li>
-        <li><a href="../Funcionarios/index.php">FUNCIONÁRIOS</a></li>
-        <li>
-          <a class="cliente" href="../Clientes/index.php">
-            CLIENTES
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-chevron-down" viewBox="0 0 16 16">
-              <path fill-rule="evenodd"
-                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up"
-              viewBox="0 0 16 16">
-              <path fill-rule="evenodd"
-                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
-            </svg>
-          </a>
-          <ul class="dropdown">
-            <li><a href="../Pedidos/index.php">PEDIDOS</a></li>
-            <li><a href="../Itens/index.php">ITENS DO PEDIDO</a></li>
-            <li><a href="../Enderecos/index.php">ENDEREÇOS</a></li>
+    <nav class="cabecalho__navegador">
+      <ul class="cabecalho__ul">
+        <li class="cabecalho__li">
+          <img class="cabecalho__imagem__nav" alt="">
+          <a class="cabvecalho_a" href="../Plantas/index.php">PLANTAS</a>
+        </li>
+        <li class="cabecalho__li">
+          <img class="cabecalho__imagem__nav" src="../../public/icons/Resume.png" alt="">
+          <a class="cabvecalho_a" href="../Funcionarios/index.php">FUNCIONÁRIOS</a>
+        </li>
+        <li class="cabecalho__li cliente">
+          <img class="cabecalho__imagem__nav" src="../../public/icons/Vector.png" alt="">
+          <a class="cabvecalho_a" href="../Clientes/index.php">CLIENTES</a>
+          <ul class="navegador__dropdown">
+            <li class="cabecalho__dropdown__li">
+              <img class="cabecalho__imagem__nav" src="../../public/icons/Truck.png" alt="">
+              <a class="cabvecalho_a" href="../Pedidos/index.php">PEDIDOS</a>
+            </li>
+            <li class="cabecalho__dropdown__li">
+              <img class="cabecalho__imagem__nav" src="../../public/icons/Trolley.png" alt="">
+              <a class="cabvecalho_a" href="../Itens/index.php">ITENS DO PEDIDO</a>
+            </li>
+            <li class="cabecalho__dropdown__li">
+              <img class="cabecalho__imagem__nav" src="../../public/icons/Location on.png" alt="">
+              <a class="cabvecalho_a" href="../Enderecos/index.php">ENDEREÇOS</a>
+            </li>
           </ul>
         </li>
       </ul>

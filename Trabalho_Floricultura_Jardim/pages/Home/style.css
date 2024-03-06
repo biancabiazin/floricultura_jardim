@@ -8,7 +8,7 @@
   --quaternary-color: #F8BDEB;
   --red: #DB005B;
   --dark-blue: #0A233C;
-  --light-pink: #FFEEFB
+  --light-pink: #FFEEFB;
 }
 
 * {
@@ -28,9 +28,9 @@ body {
 }
 
 .cabecalho__imagem {
-width: 185px; 
-height: 155px; 
-margin: -10px 0 0 30px;
+  width: 185px;
+  height: 155px;
+  margin: -10px 0 0 30px;
 }
 
 .cabecalho__imagem__nav {
@@ -40,7 +40,7 @@ margin: -10px 0 0 30px;
 
 .rodape__imagem {
   width: 500px;
-  height: 501px; 
+  height: 501px;
   margin: 92px 109px 127px 10px;
 }
 
@@ -76,36 +76,22 @@ margin: -10px 0 0 30px;
   display: block;
 }
 
-.navegador__dropdown {
-  width: 100%;
-  background-color: var(--secondary-color);
-  position: absolute;
-  z-index: 999;
+ul.navegador__dropdown {
   display: none;
+  position: absolute;
+  background-color: var(--secondary-color);
+  z-index: 999;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.cliente:hover ul.navegador__dropdown {
+  display: block;
 }
 
 ul li a:hover {
   background-color: var(--tertiary-color);
-}
-
-ul li:hover ul.dropdown {
-  display: block;
-}
-
-.cliente .bi-chevron-down {
-  display: inline;
-}
-
-.cliente .bi-chevron-up {
-  display: none;
-}
-
-.cliente:hover .bi-chevron-down {
-  display: none;
-}
-
-.cliente:hover .bi-chevron-up {
-  display: inline;
 }
 
 .secoes {

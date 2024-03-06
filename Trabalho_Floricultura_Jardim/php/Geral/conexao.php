@@ -2,7 +2,7 @@
 function conectaBD()
 {
   $servername = "localhost";
-  $database = "Jardim";
+  $database = "jardim";
   $username = "root";
   $password = "";
 
